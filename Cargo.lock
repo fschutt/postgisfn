@@ -1,4 +1,4 @@
 [root]
-name = "pgfn"
+name = "postgisfn"
 version = "0.1.0"
 

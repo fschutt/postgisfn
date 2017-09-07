@@ -1124,7 +1124,7 @@ impl Schema {
     pub fn _st_dwithin(&mut self, geom1: GeometryType<T>, geom2: GeometryType<T>,") -> Result<bool, Error> { }
 
     #[inline]
-    pub fn st_dwithin(&mut self, geom1: GeometryType<T>, geom2: GeometryType<T>,") -> Result<bool, Error> { }
+    pub fn st_dwithin<T: Dimension>(&mut self, geom1: GeometryType<T>, geom2: GeometryType<T>,") -> Result<bool, Error> { }
 
     #[inline]
     pub fn _st_intersects(&mut self, geom1: GeometryType<T>, geom2: GeometryType<T>) -> Result<bool, Error> { }
